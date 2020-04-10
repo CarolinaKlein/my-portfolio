@@ -11,9 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
-
+html {
+  scroll-behavior: smooth;
+ }
+ 
 body{
   margin: 0;
+  background-image: url("/Users/carolinaklein/Desktop/background.jpg");
 }
 
 .navbar {
@@ -33,4 +37,16 @@ a{
 nav ul Link{
   text-decoration: none;
   list-style: none;
+}
+
+.mainIntroDiv{
+  display: flex;
+  flex-direction: row;
+}
+.intro{
+  margin-right: 4px;
+}
+
+#pink{
+  color: lightcoral;
 }
