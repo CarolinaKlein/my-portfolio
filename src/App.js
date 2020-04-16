@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Card from 'react-bootstrap/Card'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './missionBooked.jpeg'
 
 const App = () => (
   <>
@@ -16,22 +18,17 @@ const App = () => (
           <Route exact path="/"/>
         </Switch>
     </Router>
-    <div class="mainIntroDiv">
-      <div class="intro">Hello, World! I'm</div><div id="pink">Carolina Klein</div><div class="intro">.</div>
+    <div className="mainIntroDiv">
+      <div className="intro">Hello, World! I'm</div><span id="pink">Carolina Klein</span><div className="intro">.</div>
     </div>
-    <div class="introSecondLine">I am a Full Stack Web Developer</div>
-    <input type="button" onClick="document.getElementById('projects').scrollIntoView();" />
+    <div className="introSecondLine">I am a Full Stack Web Developer</div>
+    <input type="button"/>
     <h1 id="projects">My projects</h1>
 
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '25rem' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the bulk of
-          the card's content.
-        </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
+      <Card.Img src={missionBooked.jpeg}></Card.Img>
+        <Card.Link href="#"/>
       </Card.Body>
       </Card>
 
