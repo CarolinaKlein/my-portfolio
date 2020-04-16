@@ -8,7 +8,7 @@ import {
 import './App.css';
 import Card from 'react-bootstrap/Card'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './missionBooked.jpeg'
+import Mission_Booked from './missionBooked.jpeg'
 
 const App = () => (
   <>
@@ -27,7 +27,7 @@ const App = () => (
 
       <Card style={{ width: '25rem' }}>
       <Card.Body>
-      <Card.Img src={missionBooked.jpeg}></Card.Img>
+      <Card.Img src={Mission_Booked}></Card.Img>
         <Card.Link href="#"/>
       </Card.Body>
       </Card>
