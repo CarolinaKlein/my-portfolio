@@ -1,11 +1,11 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
+import '../App.css';
 
 const Navbar = () => {
 
   return(
-    // <nav className={styles.navBar}>
-    <nav class="navbar">
+    <nav className="navbar">
         <ul>
              <Link to="/home">Home</Link>
              <Link to="/resume">Resume</Link>

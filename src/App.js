@@ -18,10 +18,10 @@ const App = () => (
           <Route exact path="/"/>
         </Switch>
     </Router>
-    <div className="mainIntroDiv">
-      <div className="intro">Hello, World! I'm</div><span id="pink">Carolina Klein</span><div className="intro">.</div>
+    <div className="intro">
+      <p>Hello, World! I'm <span>Carolina Klein</span>.</p>
+      <p>I am a Full Stack Web Developer</p>
     </div>
-    <div className="introSecondLine">I am a Full Stack Web Developer</div>
     <input type="button"/>
     <h1 id="projects">My projects</h1>
 
