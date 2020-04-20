@@ -40,15 +40,15 @@
 .navbar{
   color: indianred;
   border: 2px solid black;
-  justify-content: space-evenly;
 }
 
 ul{
-  justify-content: space-around;
+  justify-content: space-evenly ;
 }
 li{
   text-decoration: none;
   list-style: none;
+  justify-content: space-around;
 
 }
 span {
