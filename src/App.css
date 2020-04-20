@@ -39,6 +39,7 @@
 
 .navbar{
   color: indianred;
+  background-color: black;
   border: 2px solid black;
 }
 
@@ -51,6 +52,16 @@ li{
   justify-content: space-around;
 
 }
+.intro{
+  background-color: #282c34;
+  font-size: 38px;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+}
+p{
+  color:#FFFFFF;
+}
 span {
-  color: indianred
+  color: #E31B6D;
 }
