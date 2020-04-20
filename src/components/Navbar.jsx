@@ -7,10 +7,18 @@ const Navbar = () => {
   return(
     <nav className="navbar">
         <ul>
-             <Link to="/home">Home</Link>
-             <Link to="/resume">Resume</Link>
-             <Link to="/projects">Projects</Link>
-             <Link to="/contact">Contact Me</Link>
+             <Link to="/home">
+              <li>Home</li>
+             </Link>
+             <Link to="/resume">
+               <li>Resume</li>
+             </Link>
+             <Link to="/projects">
+               <li>Projects</li>
+             </Link>
+             <Link to="/contact">
+               <li>Contact</li>
+             </Link>
         </ul>
     </nav>
   )

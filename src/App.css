@@ -39,9 +39,18 @@
 
 .navbar{
   color: indianred;
-  border: 2px solid black
+  border: 2px solid black;
+  justify-content: space-evenly;
 }
 
+ul{
+  justify-content: space-around;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+
+}
 span {
   color: indianred
 }
