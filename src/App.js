@@ -1,4 +1,5 @@
 import React from 'react';
+import Landing from './components/Landing'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import {BrowserRouter as Router} from "react-router-dom";
@@ -8,18 +9,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => (
   <>
+    <Landing/>
     <Router>
         <Navbar/>
     </Router>
-    <div className="intro">
-      <p>Hello, World! I'm <span>Carolina Klein</span>.</p>
-      <p>I am a Full Stack Web Developer</p>
-    </div>
-    <input type="button"/>
-    <h1 id="projects">My projects</h1>
     <Projects/>
-
-    
     <h1 id="resume">My resume</h1>
 
 
