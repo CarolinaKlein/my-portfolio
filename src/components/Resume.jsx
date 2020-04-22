@@ -1,6 +1,7 @@
 import React from 'react'
 import Vanity from '../assets/Web_Developer_CarolinaK_Vanity.pdf'
 import ATS from '../assets/Web_Developer_CarolinaK_Vanity.pdf'
+
 const Resume = () => {
     return (
         <div>
