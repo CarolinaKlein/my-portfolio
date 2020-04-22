@@ -5,23 +5,23 @@ import Furever from '../assets/Furever.jpeg'
 
 const Projects = () => {
     return(
-        <>
-        <h1 id="projects">My projects</h1>
-        <div className="projects">
-            <Card className="card" style={{ width: '25rem' }}>
-                <Card.Body>
-                    <Card.Img src={Mission_Booked}></Card.Img>  
-                    <Card.Link href="#"/>
-                </Card.Body>
-            </Card>
-            <Card className="card" style={{ width: '25rem' }}>
-                <Card.Body>
-                        <Card.Img src={Furever}></Card.Img>  
+        <div>
+            <h1 id="projects">PROJECTS</h1>
+            <div className="projects">
+                <Card className="card" style={{ width: '25rem' }}>
+                    <Card.Body>
+                        <Card.Img src={Mission_Booked}></Card.Img>  
                         <Card.Link href="#"/>
-                </Card.Body>
-            </Card>
+                    </Card.Body>
+                </Card>
+                <Card className="card" style={{ width: '25rem' }}>
+                    <Card.Body>
+                            <Card.Img src={Furever}></Card.Img>  
+                            <Card.Link href="#"/>
+                    </Card.Body>
+                </Card>
+            </div>
         </div>
-        </>
     )
 }
 

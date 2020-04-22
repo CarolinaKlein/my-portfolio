@@ -2,6 +2,7 @@ import React from 'react';
 import Landing from './components/Landing'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
+import Resume from './components/Resume'
 import {BrowserRouter as Router} from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -14,10 +15,10 @@ const App = () => (
         <Navbar/>
     </Router>
     <Projects/>
-    <h1 id="resume">My resume</h1>
+    <Resume/>
 
 
-    <h1 id="contact">Contact</h1>
+    <h1 id="contact">CONTACT ME</h1>
 
   </>
 );

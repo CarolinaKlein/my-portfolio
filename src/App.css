@@ -1,35 +1,17 @@
 body{
   max-width:100%
 }
-.navbar{
-  color: indianred;
-  background-color: #1B242F;
-  max-width:100%;
-}
 
-ul{
-  display: flex;
-  justify-content: flex-end;
-  width: 100vw;
-  border: 1px solid orangered;
-}
-li{
-  text-decoration: none;
-  list-style: none;
-  color: #E31B6D;
-  margin-left: 25px;
-}
 .intro{
+  height: 90vh;
+  width: 100vw;
   background-color: #282c34;
-  background-size: cover;
   font-size: 38px;
+  font-family: 'Raleway', sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  font-family: 'Raleway', sans-serif;
 }
 .landing-btn{
   margin-top: 35px;
@@ -43,6 +25,27 @@ li{
   color:#E31B6D
 }
 
+.navbar{
+  color: indianred;
+  background-color: #1B242F;
+  width: 100vw;
+}
+
+ul{
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  padding-top: 8px;
+  padding-right: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+  color: #E31B6D;
+  margin-left: 25px;
+}
 p{
   color:#FFFFFF;
   line-height: 30px;
@@ -51,12 +54,24 @@ span {
   color: #E31B6D;
 }
 
+h1{
+  text-align: center;
+  position: relative;
+  height: 8rem;
+  margin-top: 80px;
+  padding-top: 50px;
+  font-size: 40px;  
+}
 .projects{
   border: 1px solid orangered;
+  height: 60vh;
+ 
   display: flex;
   flex-direction: row;
 }
 
-.card {
+.card-body {
   border: 4px solid salmon;
+  height: 300px;
+  margin-left: 130px;
 }
