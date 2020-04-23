@@ -3,7 +3,7 @@ import Landing from './components/Landing'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
-import Contact from './components/Contact'
+import Contact from './components/Contact/Contact'
 import {BrowserRouter as Router} from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
