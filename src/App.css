@@ -62,13 +62,40 @@ h1{
   padding-top: 50px;
   font-size: 40px;  
 }
-.projects-container{
-  height: 60vh;
+#projects{
+  margin-top: 4rem;
+}
+.projects{
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
-.projects-card-img{
-  height: 200px;
-  width: 170px;
+.projects-container{
+  height: 60vh;
+  margin-top: 4rem;
 }
+
+.projects-card{
+  margin-right: 2rem;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.projects-card:hover{
+  transform: rotateY(180deg);
+}
+
+.projects-card-front{
+  backface-visibility: hidden;
+}
+
+.projects-card-back{
+  backface-visibility: hidden;
+  transform: rotateY(180deg)
+}
+
+.projects-card-img{
+  height: 20rem;
+  width: 32rem;
+  border: 1px solid lightgray;
+}  

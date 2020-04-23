@@ -6,22 +6,30 @@ const Projects = () => {
     return(
         <div>
             <h1 id="projects">PROJECTS</h1>
-            <div className="projects-container">
-                <div className="projects-card">
-                    <div className="projects-card-body">
-                        <img className="projects-card-img" src={Mission_Booked} alt="picture of project home page"/>  
-                        <a href="#">View Site</a>
-                        <a href="#">View Code</a>
+            <div className="projects">
+                <div className="projects-container">
+                    <div className="projects-card">
+                        <div className="projects-card-front">
+                            <img className="projects-card-img" src={Mission_Booked} alt="picture of project home page"/>  
+                        </div>
+                        <div className="projects-card-back">
+                            <a href="#">View Site</a>
+                            <a href="#">View Code</a>
+                        </div>
                     </div>
-                </div>
-                <div className="projects-card">
-                    <div className="projects-card-body">
-                        <img className="projects-card-img" src={Furever} alt="picture of project home page"/>
-                        <a href="#">View Site</a>
-                        <a href="#">View Code</a>
+                </div> 
+                <div className="projects-container">
+                    <div className="projects-card">
+                        <div className="projects-card-front">
+                            <img className="projects-card-img" src={Furever} alt="picture of project home page"/>  
+                        </div>
+                        <div className="projects-card-back">
+                            <a href="#">View Site</a>
+                            <a href="#">View Code</a>
+                        </div>
                     </div>
-                </div>
-            </div>
+                    </div>
+                </div> 
         </div>
     )
 }
