@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import axios from 'axios'
 import Validators from './validators'
 
 const Contact = () => {
@@ -8,9 +9,11 @@ const Contact = () => {
         email: '',
         subject: '',
         number: '',
+        message: '',
       }
       const [formData, setFormData] = useState(INITIAL_STATE)
       const [errors, setErrors] = useState({})
+
       const handleInputChange = e => {
         const { name, value } = e.target
         setFormData({ ...formData, [name]: value })
@@ -19,10 +22,34 @@ const Contact = () => {
         event.preventDefault()
         setErrors(Validators(formData))
         setFormData(INITIAL_STATE)
+
+        fetch('http://localhost:4000/api/email', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }).then(response => response.json()).then(res => console.log(res)).catch(err => console.log(err.message, 'wills err'))
+
+    //     axios.post('http://localhost:3030/api/email', {
+    //         headers: "Bearer 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",
+    //         body: formData
+    //     })
+    //     .then(res => {
+    //         if(res.data.success){
+    //             console.log("YAY")
+    //         } else {
+    //             console.log("Y")
+    //         }
+    //     })
+    //     .catch(err => {
+    //         console.log(err.message, "lol")
+    //     })
       }
 
     return(
         <div className="contact-body">
+            <div id="curve"></div>
             <h1 id="contact">CONTACT ME</h1>
                 <div className="contact-form">
                     <section>
@@ -92,7 +119,7 @@ const Contact = () => {
                          *************************************/}
                         <div className="contact-textarea">
                         <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
+                        <textarea name="message" id="message" rows="6" onChange={handleInputChange}></textarea>
                         </div>
                         <ul className="form-actions">
                         <li>
