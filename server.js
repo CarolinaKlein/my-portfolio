@@ -10,18 +10,18 @@ const port = process.env.PORT || 4000
 
 const app = express(); //alias from the express function
 
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') { // webpack/ bundle
     // Serve any static files
     app.use(express.static(path.join(__dirname, 'client/build')));
     // Handle React routing, return all requests to React app
     app.get('*', (request, response) => {
       response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
     });
-  }
+}
 //require('dotenv').load();
 //sendgrid api key
 //sgMail.setApiKey(process.env.SENDGRID_KEY);
-sgMail.setApiKey("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");
+sgMail.setApiKey(process.env.SG_API_KEY);
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -45,11 +45,9 @@ app.post('/api/email', (req, res, next) => {
         sgMail.send(msg)
         .then(res => {
             console.log(res)
-           
         })
         .catch(err => {
             console.log('error: ', err);
-            
         });
 
         res.status(200).json({
