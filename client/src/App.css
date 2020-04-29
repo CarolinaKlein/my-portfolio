@@ -58,7 +58,35 @@ span {
 .about-page{
   width: 100vw;
   height: 100vh;
-  padding: 0;
+  margin-bottom: 150px;
+}
+.about-top{
+  width: 100vw;
+  text-align: center;
+}
+.site-qualities-img {
+  width: 75vw;
+  height: auto;
+  margin-top: 3rem;
+}
+.about-middle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#portrait{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
+}
+.about-middle-left p {
+  color: #1B242F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .skills ul {
   display: flex;
@@ -70,6 +98,7 @@ span {
   font-style: bold;
 }
 .skills{
+  margin-top: 3rem;
   width: 500px;
 }
 .skills li{
@@ -90,6 +119,7 @@ span {
 #html{
   width: 90%;
   animation: html 2.5s;
+  font-weight: 900;
 }
 #css{
   width: 90%;
