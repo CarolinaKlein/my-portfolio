@@ -54,6 +54,47 @@ span {
   color: #E31B6D;
 }
 
+/* ABOUT ME  */
+.about-page{
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+.skills ul {
+  display: flex;
+  flex-direction: column;
+}
+.skills{
+  width: 500px;
+  /* margin:60px auto; */
+}
+.skills li{
+  /* margin: 20px 0; */
+  list-style: none;
+}
+.bar{
+  background: #01A1A7;
+  display: block;
+  height: 10px;
+  border: 1px solid steelblue;
+  overflow: hidden;
+}
+.bar span{
+  height: 5px;
+  background: thistle;
+  float: left;
+}
+#html{
+  width: 90%;
+}
+
+
+/* PROJECTS */
+
+.projects-page{
+  background-color: #F5F5F5;
+  width: 100vw
+}
 h1{
   text-align: center;
   position: relative;
@@ -62,8 +103,9 @@ h1{
   padding-top: 50px;
   font-size: 40px;  
 }
-#projects{
+h1 #projects{
   margin-top: 4rem;
+  background-color: #F5F5F5
 }
 .projects{
   display: flex;
@@ -100,6 +142,12 @@ h1{
   width: 32rem;
   border: 1px solid lightgray;
 }  
+
+/* RESUME */
+
+.resume-page{
+  height: 60vh;
+}
 
 /* CONTACT FORM */
 
@@ -189,11 +237,11 @@ input[type="reset"] {
 }
 
 /* CURVED CONTACT BAR */
-#curve{
+/* #curve{
     width:100%;
     height:40px;
     border-bottom-left-radius:15% 85%;
     border-bottom-right-radius:15% 85%;
     border-bottom: 2px solid #E31B6D;
     background: white;
-}
+} */

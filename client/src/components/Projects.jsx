@@ -4,7 +4,7 @@ import Furever from '../assets/Furever.jpeg'
 
 const Projects = () => {
     return(
-        <div>
+        <div className="projects-page">
             <h1 id="projects">PROJECTS</h1>
             <div className="projects">
                 <div className="projects-container">

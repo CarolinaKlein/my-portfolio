@@ -1,6 +1,7 @@
 import React from 'react';
 import Landing from './components/Landing'
 import Navbar from './components/Navbar'
+import About from './components/About/About'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Contact from './components/Contact/Contact'
@@ -15,6 +16,7 @@ const App = () => (
     <Router>
         <Navbar/>
     </Router>
+    <About/>
     <Projects/>
     <Resume/>
     <Contact/>
