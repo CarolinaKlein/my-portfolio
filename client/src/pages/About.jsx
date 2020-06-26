@@ -1,5 +1,5 @@
 import React from 'react'
-import Skills from './Skills'
+import Skills from '../components/Skills'
 import Site_Qualities from '../../assets/my-site.jpg'
 import Portrait from '../../assets/portfolio-portrait.jpeg'
 
