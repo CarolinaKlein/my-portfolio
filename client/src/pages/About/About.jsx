@@ -1,7 +1,7 @@
 import React from 'react'
 import Skills from '../../components/Skills'
-import Site_Qualities from '../../assets/my-site.jpg'
-import Portrait from '../../assets/portfolio-portrait.jpeg'
+import Site_Qualities from '../../assets/images/my-site.jpg'
+import Portrait from '../../assets/my-site/portfolio-portrait.jpeg'
 
 const About = () => {
     return (
