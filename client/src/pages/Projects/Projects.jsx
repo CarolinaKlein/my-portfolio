@@ -1,11 +1,12 @@
 import React from 'react';
 import Mission_Booked from '../../assets/images/Mission_Booked.jpeg'
 import Furever from '../../assets/images/Furever.jpeg'
+import './Projects.scss'
 
 const Projects = () => {
     return(
         <section id="projects">
-            <h1 id="projects">PROJECTS</h1>
+            <h1>PROJECTS</h1>
             <div className="projects">
                 <div className="projects-container">
                     <div className="projects-card">

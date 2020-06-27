@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Validators from '../../utilities/validators'
+import './Contact.scss'
 
 const Contact = () => {
 
@@ -49,7 +50,7 @@ const Contact = () => {
     return(
         <section id="contact">
             <div id="curve"></div>
-            <h1 id="contact">CONTACT ME</h1>
+            <h1>CONTACT ME</h1>
                 <div className="contact-form">
                     <section>
                     <form method="post" action="#" onSubmit={handleSubmit}>
