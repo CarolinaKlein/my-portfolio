@@ -4,7 +4,7 @@ import Furever from '../../assets/images/Furever.jpeg'
 
 const Projects = () => {
     return(
-        <div className="projects-page">
+        <section id="projects">
             <h1 id="projects">PROJECTS</h1>
             <div className="projects">
                 <div className="projects-container">
@@ -30,7 +30,7 @@ const Projects = () => {
                     </div>
                     </div>
                 </div> 
-        </div>
+        </section>
     )
 }
 

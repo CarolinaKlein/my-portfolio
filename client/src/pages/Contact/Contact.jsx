@@ -47,7 +47,7 @@ const Contact = () => {
       }
 
     return(
-        <div className="contact-body">
+        <section id="contact">
             <div id="curve"></div>
             <h1 id="contact">CONTACT ME</h1>
                 <div className="contact-form">
@@ -131,7 +131,7 @@ const Contact = () => {
                     </form>
                     </section>
                 </div>
-        </div>
+        </section>
     )
 }
 export default Contact

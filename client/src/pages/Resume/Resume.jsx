@@ -4,13 +4,13 @@ import ATS from '../../assets/pdf/Resume_Carolina_Klein_Full_Stack.pdf'
 
 const Resume = () => {
     return (
-        <div className="resume-page">
+        <section id="resume" class="resume">
             <h1 id="resume-h1">RESUME</h1>
             <div className="resume-a">
                 <a href={Vanity} download>Vanity Download</a>
                 <a href={ATS} download>ATS Download</a>
             </div>
-        </div>
+        </section>
     )
 }
 export default Resume
