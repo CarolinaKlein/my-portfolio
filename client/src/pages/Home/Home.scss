@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+.home {
+    background-color: $charcoal;
+    p{
+        color: $white;
+        line-height: 30px;
+      }
+    span {
+        color: $pink;
+    }
+}
