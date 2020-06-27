@@ -1,12 +1,38 @@
 @import '../../styles/variables';
 
 .home {
+    height: 90vh;
+    width: 100vw;
+    font-size: 38px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background-color: $charcoal;
-    p{
+    p {
         color: $white;
         line-height: 30px;
       }
-    span {
+    span { 
         color: $pink;
+    }
+    a{
+        text-decoration: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        margin-top: 35px;
+        padding: 10px 20px 10px 20px;
+        font-size: 22px;
+        border: 2px solid $white;
+        color: $white;
+        background-color: $charcoal;
+    }
+    &:hover{
+        text-decoration: none;
+        color: $pink;
+    }
+    &:active{
+        transform: scale(0.99)
     }
 }

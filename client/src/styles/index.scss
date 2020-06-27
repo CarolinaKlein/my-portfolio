@@ -1,57 +1,9 @@
-// @import "./fonts";
 @import "./variables";
 @import "./global";
 
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-html {
-  scroll-behavior: smooth;
- }
- 
-body{
-  margin: 0;
-  background-image: url("/Users/carolinaklein/Desktop/background.jpg");
-}
 
-.navbar {
-  width: 100%;
-  display: flex;
-  border-color: black;
-}
 
-nav ul{
-  display: flex;
-}
 
-a{
-  text-decoration: none;
-}
 
-nav ul Link{
-  text-decoration: none;
-  list-style: none;
-}
-
-.mainIntroDiv{
-  display: flex;
-  flex-direction: row;
-}
-.intro{
-  margin-right: 4px;
-}
-
-#pink{
-  color: lightcoral;
-}

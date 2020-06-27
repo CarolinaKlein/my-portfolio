@@ -10,14 +10,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 const App = () => (
-  <div className="container">
+  <>
     <Home/>
     <Navbar/>
     <About/>
     <Projects/>
     <Resume/>
     <Contact/>
-  </div>
+  </>
 );
 
 
