@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/App.scss';
 import '../components/SmoothScroll'
 
 const Navbar = () => {
