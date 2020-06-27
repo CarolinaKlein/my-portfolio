@@ -3,11 +3,11 @@ import '../../styles/App.css';
 
 const Landing = () => {
     return(
-        <div className="intro">
+        <section id="home" className="home">
             <p>Hello, World! I'm <span>Carolina Klein</span>.</p>
-            <p>I am a Full Stack Web Developer</p>
-            <input className="landing-btn" type="button" value="View my work"/>
-        </div>
+            <p>I am a Software Engineer</p>
+            <a href="#projects" class="button" id="home-btn">View my work</a>
+        </section>
     )
 }
 

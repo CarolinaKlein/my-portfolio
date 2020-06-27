@@ -5,7 +5,7 @@ import Portrait from '../../assets/images/portfolio-portrait.jpeg'
 
 const About = () => {
     return (
-        <div className="about-page">
+        <section id="about">
             <h1> ABOUT ME</h1>
             <div className="about-top">
                  <img className="site-qualities-img" src={Site_Qualities} alt="picture describing the great quality of my applications"/>  
@@ -19,7 +19,7 @@ const About = () => {
                     <Skills/>
                 </div>
             </div>     
-        </div>
+        </section>
     )
 }
 

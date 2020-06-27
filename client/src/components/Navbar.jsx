@@ -1,24 +1,16 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import '../styles/App.css';
+import '../components/SmoothScroll'
 
 const Navbar = () => {
 
   return(
     <nav className="navbar">
         <ul>
-             <Link to="/home">
-              <li>Home</li>
-             </Link>
-             <Link to="/resume">
-               <li>Projects</li>
-             </Link>
-             <Link to="/projects">
-               <li>Resume</li>
-             </Link>
-             <Link to="/contact">
-               <li>Contact</li>
-             </Link>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
   )
