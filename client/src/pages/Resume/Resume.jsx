@@ -1,6 +1,6 @@
 import React from 'react'
-import Vanity from '../assets/Web_Developer_CarolinaK_Vanity.pdf'
-import ATS from '../assets/Resume_Carolina_Klein_Full_Stack.pdf'
+import Vanity from '../../assets/pdf/Web_Developer_CarolinaK_Vanity.pdf'
+import ATS from '../../assets/pdf/Resume_Carolina_Klein_Full_Stack.pdf'
 
 const Resume = () => {
     return (
