@@ -6,6 +6,8 @@ import Projects from '../src/pages/Projects/Projects.jsx'
 import Resume from '../src/pages/Resume/Resume.jsx'
 import Contact from '../src/pages/Contact/Contact.jsx'
 import '../src/styles/App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 const App = () => (
   <div className="container">
