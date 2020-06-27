@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Validators from './validators'
+import Validators from '../../utilities/validators'
 
 const Contact = () => {
 
