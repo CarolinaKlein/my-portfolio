@@ -1,0 +1,32 @@
+
+html body #root {
+    height: 100%;
+    width: 100vw;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    background-color: $midnight;
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        width: 100vw;
+        padding-top: 8px;
+        padding-right: 60px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+    li{
+        text-decoration: none;
+        list-style: none;
+        color: $pink;
+        margin-left: 25px;
+      }
+  }
+
+  

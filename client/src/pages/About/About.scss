@@ -1,0 +1,123 @@
+@import '../../styles/variables';
+
+.about-top{
+  width: 100vw;
+  text-align: center;
+}
+.site-qualities-img {
+  width: 75vw;
+  height: auto;
+  margin-top: 3rem;
+}
+.about-middle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#portrait{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
+}
+.about-middle-left p {
+  color: $midnight;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills ul {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.skills h3 {
+  font-size: 15px;
+  font-style: bold;
+}
+.skills{
+  margin-top: 3rem;
+  width: 500px;
+}
+.skills li{
+  margin: 10px 0;
+  list-style: none;
+}
+.bar{
+  background: $lace;
+  display: block;
+  height: 15px;
+  overflow: hidden;
+}
+.bar span{
+  height: 15px;
+  background: $thistle;
+  float: left;
+}
+#html{
+  width: 90%;
+  animation: html 2.5s;
+  font-weight: 900;
+}
+#css{
+  width: 90%;
+  animation: css 2.5s;
+}
+#js{
+  width: 80%;
+  animation: js 2.5s;
+}
+#react{
+  width: 80%;
+  animation: react 2.5s;
+}
+#node{
+  width: 70%;
+  animation: node 2.5s;
+}
+#rubyr{
+  width: 30%;
+  animation: rubyr 2.5s;
+}
+#wordpress{
+  width: 50%;
+  animation: wordpress 2.5s;
+}
+
+@keyframes html{
+  0%{
+      Width: 0;
+  }
+}
+@keyframes css{
+  0%{
+      Width: 0;
+  }
+}
+@keyframes js{
+  0%{
+      Width: 0;
+  }
+}
+@keyframes react{
+  0%{
+      Width: 0;
+  }
+}
+@keyframes node{
+  0%{
+      Width: 0;
+  }
+}
+@keyframes rubyr{
+  0%{
+      Width: 0;
+  }
+}
+@keyframes wordpress{
+  0%{
+      Width: 0;
+  }
+}
