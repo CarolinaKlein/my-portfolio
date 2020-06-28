@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from '../src/pages/Home/Home.jsx'
-import Navbar from '../src/components/Navbar'
+import Navbar from '../src/components/Navbar.jsx'
 import About from '../src/pages/About/About.jsx'
 import Projects from '../src/pages/Projects/Projects.jsx'
 import Resume from '../src/pages/Resume/Resume.jsx'

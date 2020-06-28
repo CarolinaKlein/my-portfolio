@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/SmoothScroll'
+import './SmoothScroll'
 
 const Navbar = () => {
 
