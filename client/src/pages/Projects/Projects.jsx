@@ -3,7 +3,9 @@ import Mission_Booked from '../../assets/images/Mission_Booked.jpeg'
 import Furever from '../../assets/images/Furever.jpeg'
 import './Projects.scss'
 
+
 const Projects = () => {
+
     return(
         <section id="projects">
             <h1>PROJECTS</h1>
