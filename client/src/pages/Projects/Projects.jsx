@@ -2,7 +2,13 @@ import React from 'react';
 import Mission_Booked from '../../assets/images/Mission_Booked.jpeg'
 import Furever from '../../assets/images/Furever.jpeg'
 import './Projects.scss'
+import Data from '../../data/projects.json'
 
+
+function Projects (){
+    const [data, setData] = useState({})
+
+}
 
 const Projects = () => {
 
