@@ -8,9 +8,7 @@ const Landing = () => {
         <section id="home" className="home">
             <p>Hello, World! I'm <span>Carolina Klein</span>.</p>
             <p>I am a Software Engineer</p>
-            <div className="button">
-               <a href="#projects">View my work</a>
-            </div>
+            <a href="#projects">View my work</a>
         </section>
     )
 }

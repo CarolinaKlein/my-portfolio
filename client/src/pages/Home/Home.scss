@@ -17,23 +17,23 @@
     span { 
         color: $pink;
     }
-    .button{
-        margin-top: 35px;
+    a{  margin-top: 35px;
         padding: 10px 20px 10px 20px;
+        text-align: center !important;
+        width: 210px;
         font-size: 22px;
         border: 2px solid $white;
         color: $white;
         background-color: $charcoal;
+        color: $white;
+        text-decoration: none !important;
         &:hover{
+            text-decoration: none !important;
+            color: white;
             transition: all 0.99s ease;
             background-color: $pink;
             border: 2px solid $pink;
         }
-        a{  
-            color: $white;
-            text-decoration: none !important;
-            padding: 10px 20px 10px 20px;
-        } 
         &:active{
             transform: scale(0.9)
         }
