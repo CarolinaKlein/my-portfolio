@@ -14,8 +14,8 @@ function Projects (){
                     <div className="projects" key={post}>
                         <h2>{post.title}</h2>
                         <img src={post.img}/>
-                        <a>{post.site}</a>
-                        <a>{post.repo}</a>
+                        <a href={post.site}>Live Site</a>
+                        <a href={post.repo}>Source Code</a>
                     </div>
                 )
             })}
