@@ -1,15 +1,16 @@
 {
     "projects" : [
         {
-            "project" : "Furever",
+            "id":1,
+            "title" : "Furever",
             "img" : "../assets/images/Furever.jpeg",
             "repo": "https://github.com/CarolinaKlein/C36_midterm_carolina_elias_rene_tristan",
             "site": "https://fureverapp.herokuapp.com/",
             "stack": ["react", "Express.js"],
             "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
         },
-        {
-            "project" : "Mission Booked",
+        {   "id":2,
+            "title" : "Mission Booked",
             "img" : "../assets/images/Mission_Booked.jpeg",
             "repo": "https://github.com/CarolinaKlein/C36_better_together_now_2",
             "site": "https://mission-booked.herokuapp.com/",
@@ -17,7 +18,8 @@
             "description": "Created while at Wyncode Academy, Mission Booked is a React-Rails app with a PostgreSQL database. It is designed to help people find volunteer opportunities and charitable organizations tailored to their interests."
         },
         {
-            "project": "JoJo Quizz",
+            "id":3,
+            "title": "JoJo Quizz",
             "img": "../assets/images/jojo.jpeg",
             "repo": "",
             "site": "http://nickelodeon-jojo-siwa-questions-walmart.s3-website-us-west-2.amazonaws.com/DEV/#/",
