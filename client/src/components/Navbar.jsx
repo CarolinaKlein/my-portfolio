@@ -3,6 +3,21 @@ import './SmoothScroll'
 
 const Navbar = () => {
 
+  // const main = document.querySelector('.home');
+  // const nav = document.querySelector('.navbar');
+
+
+  // window.onscroll = function () {
+
+  //     if (window.pageYOffset > (main.offsetHeight - nav.offsetHeight)) {
+  //         nav.classList.remove('bottom-nav');
+  //         nav.classList.add('nav');
+  //     } else {
+  //         nav.classList.add('bottom-nav');
+  //         nav.classList.remove('nav');
+
+  //     }
+  // }
   return(
     <nav className="navbar">
         <ul>
