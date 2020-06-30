@@ -8,10 +8,10 @@ function Projects (){
     return (
         <section id="projects">
             <h1>PROJECTS</h1>
-            <div>
+            <div className="colums">
             {data.projects.map(post => {
                 return(
-                    <div className="projects" key={post}>
+                    <div className="projects column" key={post}>
                         <h2>{post.title}</h2>
                         <img src={post.img}/>
                         <a href={post.site}>Live Site</a>

@@ -3,7 +3,7 @@
         {
             "id":1,
             "title" : "Furever",
-            "img" : "../../../../my-portfolio/client/src/assets/images/Furever.jpeg",
+            "img" : "../src/assets/images/Furever.jpeg",
             "repo": "https://github.com/CarolinaKlein/C36_midterm_carolina_elias_rene_tristan",
             "site": "https://fureverapp.herokuapp.com/",
             "stack": ["react", "Express.js"],
@@ -29,8 +29,8 @@
         {
             "id":4,
             "title": "This Portfolio",
-            "img": "",
-            "repo": "",
+            "img": "../assets/images/portfolio",
+            "repo": "https://github.com/CarolinaKlein/my-portfolio",
             "site": "https://github.com/CarolinaKlein/my-portfolio",
             "stack": "react",
             "description": "View the source code of this website"
