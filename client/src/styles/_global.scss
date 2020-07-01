@@ -7,11 +7,19 @@ body {
     margin: 0;
     padding: 0;
 }
+h1{
+  text-align: center;
+  position: relative;
+  height: 8rem;
+  margin-top: 80px;
+  padding-top: 50px;
+  font-size: 40px;  
+}
 
 nav {
     width: 100vw;
     display: flex;
-    background-color: $midnight;
+    background-color: $midnight !important;
     position: absolute;
     bottom: 0;
     ul {
