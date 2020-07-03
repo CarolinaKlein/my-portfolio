@@ -5,7 +5,7 @@
         {
             "id":1,
             "title" : "Furever",
-            "img" : "Furever",
+            "img" : "include('../../assets/images/Furever.jpeg')",
             "repo": "https://github.com/CarolinaKlein/C36_midterm_carolina_elias_rene_tristan",
             "site": "https://fureverapp.herokuapp.com/",
             "stack": ["react", "Express.js"],
@@ -13,7 +13,7 @@
         },
         {   "id":2,
             "title" : "Mission Booked",
-            "img" : "Mission_Booked",
+            "img" : "../../assets/images/Mission_Booked.jpeg",
             "repo": "https://github.com/CarolinaKlein/C36_better_together_now_2",
             "site": "https://mission-booked.herokuapp.com/",
             "stack": ["react", "rails", "postgreSQL"],
