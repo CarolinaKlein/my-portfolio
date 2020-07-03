@@ -13,5 +13,21 @@
     padding: 0 10rem;
     margin-top: 4rem;
   }
-  
+  img{
+    margin: 3rem 0;
+  }
+  #life-site{
+    text-decoration: none;
+    color: white;
+    background-color: $pink;
+    margin: 1rem;
+    padding: 0.45rem 1rem;
+  }
+  #source-code{
+    text-decoration: none;
+    color: white;
+    background-color: $pink;
+    margin: 0.7rem;
+    padding: 0.45rem 0.6rem;
+  }
 }

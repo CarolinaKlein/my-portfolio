@@ -7,9 +7,9 @@ const Resume = () => {
     return (
         <section id="resume">
             <h1>RESUME</h1>
-            <div className="resume-a">
-                <a href={Vanity} download>Vanity Download</a>
-                <a href={ATS} download>ATS Download</a>
+            <div className="columns resume-a">
+                <a href={Vanity} download className="column">Vanity Download</a>
+                <a href={ATS} download className="column">ATS Download</a>
             </div>
         </section>
     )

@@ -2,7 +2,7 @@ import React from 'react'
 import './SmoothScroll'
 
 const Navbar = () => {
-
+  
   return(
     <nav className="navbar">
         <ul>
