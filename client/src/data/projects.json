@@ -5,7 +5,7 @@
         {
             "id":1,
             "title" : "Furever",
-            "img" : "include('../../assets/images/Furever.jpeg')",
+            "img" : "Furever",
             "repo": "https://github.com/CarolinaKlein/C36_midterm_carolina_elias_rene_tristan",
             "site": "https://fureverapp.herokuapp.com/",
             "stack": ["react", "Express.js"],
@@ -13,7 +13,7 @@
         },
         {   "id":2,
             "title" : "Mission Booked",
-            "img" : "../../assets/images/Mission_Booked.jpeg",
+            "img" : "Mission",
             "repo": "https://github.com/CarolinaKlein/C36_better_together_now_2",
             "site": "https://mission-booked.herokuapp.com/",
             "stack": ["react", "rails", "postgreSQL"],
@@ -22,7 +22,7 @@
         {
             "id":3,
             "title": "JoJo Quizz",
-            "img": "../../assets/images/jojo.jpeg",
+            "img": "Jojo",
             "repo": "",
             "site": "http://nickelodeon-jojo-siwa-questions-walmart.s3-website-us-west-2.amazonaws.com/DEV/#/",
             "stack": "react",
@@ -31,7 +31,7 @@
         {
             "id":4,
             "title": "This Portfolio",
-            "img": "../../assets/images/portfolio",
+            "img": "Portfolio",
             "repo": "https://github.com/CarolinaKlein/my-portfolio",
             "site": "https://github.com/CarolinaKlein/my-portfolio",
             "stack": "react",
