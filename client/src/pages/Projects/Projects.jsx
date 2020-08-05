@@ -4,6 +4,7 @@ import Furever from "../../assets/images/Furever.jpeg"
 import Mission from "../../assets/images/Mission_Booked.jpeg"
 import Jojo from "../../assets/images/jojo.jpeg"
 import Portfolio from "../../assets/images/portfolio.jpeg"
+import Franchise from "../../assets/images/arhf.png"
 
 
 const Projects = () => {
@@ -44,7 +45,16 @@ const Projects = () => {
       site: "https://github.com/CarolinaKlein/my-portfolio",
       stack: "react",
       description: "View the source code of this website"
-    }
+    },
+    {
+    id:5,
+    title: "AR Homes",
+    img: Franchise,
+    repo: "",
+    site: "",
+    stack: ["react", "graphql"],
+    description: "The leading luxury homebuilding franchise in the USA"
+  }
   ]
 
   return (
