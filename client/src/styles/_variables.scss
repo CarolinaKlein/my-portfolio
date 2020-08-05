@@ -5,3 +5,9 @@ $thistle: #d8bfd8;
 $charcoal: #282c34;
 $midnight: #1B242F;
 $pink: #E31B6D;
+
+// star-shadows
+
+$shadows-small:  multiple-box-shadow(700);
+$shadows-medium: multiple-box-shadow(200);
+$shadows-big:    multiple-box-shadow(100);
