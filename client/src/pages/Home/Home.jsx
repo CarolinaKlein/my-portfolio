@@ -1,4 +1,5 @@
-import React, { useRef } from 'react'
+import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './Home.scss'
 
 
@@ -8,7 +9,7 @@ const Landing = () => {
         <section id="home" className="home">
             <p>Hello, World! I'm <span>Carolina Klein</span>.</p>
             <p>I am a Software Engineer</p>
-            <a href="#projects">View my work</a>
+            <AnchorLink href="#projects">View my work</AnchorLink>
         </section>
     )
 }
