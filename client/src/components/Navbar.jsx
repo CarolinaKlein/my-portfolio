@@ -1,4 +1,5 @@
 import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 const Navbar = () => {
@@ -6,13 +7,13 @@ const Navbar = () => {
   return(
     <nav className="navbar">
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <AnchorLink href="#about">About</AnchorLink>
+            <AnchorLink href="#projects">Projects</AnchorLink>
+            <AnchorLink href="#contact">Contact</AnchorLink>
         </ul>
     </nav>
   )
 }
+
 
 export default Navbar
