@@ -12,7 +12,6 @@ const App = () => (
     <Navbar/>
     <About/>
     <Projects/>
-    <Resume/>
     <Contact/>
   </>
 );
