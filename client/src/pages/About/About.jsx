@@ -1,6 +1,5 @@
 import React from 'react'
 import Skills from '../../components/Skills'
-import Site_Qualities from '../../assets/images/my-site.jpg'
 import Portrait from '../../assets/images/portfolio-portrait.jpeg'
 import './About.scss'
 
@@ -8,9 +7,6 @@ const About = () => {
     return (
         <section id="about">
             <h1> ABOUT ME</h1>
-            <div className="about-top">
-                 <img className="site-qualities-img" src={Site_Qualities} alt="picture describing the great quality of my applications"/>  
-            </div>
             <div className="about-middle">
                 <div className="about-middle-left">
                     <img id="portrait" src={Portrait} alt="portrait of Carolina"/>
